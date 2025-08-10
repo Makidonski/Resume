@@ -1,0 +1,192 @@
+/* Основные стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border: 3px solid #4b0082;
+}
+
+.divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #00ffff, #ff00ff);
+    margin: 30px 0;
+}
+
+/* Таблица */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info-table th, .info-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.info-table th {
+    background-color: #9370db;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Заголовки */
+.main-title {
+    color: #ff4500;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.3em;
+    color: #4169e1;
+    margin: 10px 0;
+}
+
+.motto {
+    text-align: center;
+    font-style: italic;
+    color: #2e8b57;
+}
+
+/* Карточки */
+.card {
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.bg1 {
+    background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+}
+
+.bg2 {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    text-align: center;
+}
+
+/* Список навыков */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    padding: 12px;
+    border-bottom: 1px dashed #aaa;
+    font-size: 1.1em;
+    position: relative;
+    padding-left: 30px;
+}
+
+.skills-list li:before {
+    content: "•";
+    color: #ff6347;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.warning {
+    color: #ff0000;
+    font-size: 2em;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Форма */
+.contact-form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4b0082;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #9370db;
+    outline: none;
+}
+
+.submit-btn {
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(218, 27, 96, 0.4);
+}
+
+/* Ссылка на портфолио */
+.portfolio-link {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.portfolio-link a {
+    color: #4169e1;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #4169e1;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.portfolio-link a:hover {
+    background-color: #4169e1;
+    color: white;
+    transform: scale(1.05);
+}
